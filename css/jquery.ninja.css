@@ -1,0 +1,45 @@
+/*!
+ * WYde Ninja css
+ * version 4.5.0.0
+ *
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ */
+
+.ninjacheckbox a  {
+  background-image: url("../images/checkbox.png");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  min-height: 16px;
+  padding-left: 0px;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+a.ninjacheckbox-unchecked, .ninjacheckbox-unchecked a,
+a.ninjacheckbox-unchecked:link, .ninjacheckbox-unchecked a:link,
+a.ninjacheckbox-unchecked:visited, .ninjacheckbox-unchecked a:visited
+  {background-position: 0px 0px;}
+a.ninjacheckbox-checked, .ninjacheckbox-checked a,
+a.ninjacheckbox-checked:link, .ninjacheckbox-checked a:link,
+a.ninjacheckbox-checked:visited, .ninjacheckbox-checked a:visited
+  {background-position: -18px 0px;}
+a.ninjacheckbox-unchecked:hover, .ninjacheckbox-unchecked a:hover
+{background-position: 0px -16px;}
+a.ninjacheckbox-checked:hover, .ninjacheckbox-checked a:hover
+  {background-position: -18px -16px;}
+a.ninjacheckbox-unchecked-disabled, .ninjacheckbox-unchecked-disabled a,
+a.ninjacheckbox-unchecked-disabled:link, .ninjacheckbox-unchecked-disabled a:link,
+a.ninjacheckbox-unchecked-disabled:visited, .ninjacheckbox-unchecked-disabled a:visited
+  {background-position: 0px -32px;}
+a.ninjacheckbox-checked-disabled, .ninjacheckbox-checked-disabled a,
+a.ninjacheckbox-checked-disabled:link, .ninjacheckbox-checked-disabled a:link,
+a.ninjacheckbox-checked-disabled:visited, .ninjacheckbox-checked-disabled a:visited
+  {background-position: -18px -32px;}
+
+dl.control-group label {
+	cursor: pointer;
+}
